@@ -1,0 +1,49 @@
+/* crétion de reset pour enlever marge soulignement et puces */
+*{
+margin: 0;
+padding: 0;
+list-style: none;
+}
+/* */
+
+
+.navbar {
+    position: absolute;
+    padding: 50px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 100%;
+    box-sizing: border-box;
+    background-color: grey;
+    background-image: url('image\ de\ fond.jpg');
+    height: 50vh;
+    
+    
+}
+/* enleve le texte souligner et choix couleur blanche */
+.navbar a {
+    text-decoration: none;
+    color: white;
+    
+    
+}
+
+    /* pour aligner la barre Home services etc */
+.navbar .nav-links ul {
+    display: flex;  
+    align-items: center;
+}
+
+.navbar .nav-links ul li{
+    margin: 0 25px;
+    
+}
+button {
+    border: none;
+    background-color: red;
+    padding: 16px 40px;
+    border-radius: 30px;
+
+}
