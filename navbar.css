@@ -5,28 +5,28 @@ padding: 0;
 list-style: none;
 }
 /* */
-
-
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap'); </style>); */
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); </style>
+ */
 .navbar {
-    position: absolute;
-    padding: 50px;
-    
+    padding: 50px; 
     display: flex;
     justify-content: space-between;
     align-items: center; 
     width: 100%;
     box-sizing: border-box;
     background-color: grey;
-    background-image: url('image\ de\ fond.jpg');
     height: 50vh;
-    
+    background-image: url('image de fond.jpg');
     
 }
+    
+
 /* enleve le texte souligner et choix couleur blanche */
 .navbar a {
     text-decoration: none;
     color: white;
-    
+    font-family: 'Noto Sans';   
     
 }
 
@@ -42,8 +42,45 @@ list-style: none;
 }
 button {
     border: none;
-    background-color: red;
+    background-color: hsl(0, 100%, 50%);
     padding: 16px 40px;
-    border-radius: 30px;
+    border-radius: 30px;    
+    
+}
+section{ 
+text-align: center;
 
 }
+h3 {
+    text-align: center;
+    font-size: 32px;
+    
+}
+h1 {
+    text-align: center;
+    font-size: 64px;
+    
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+.section adam{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+    
+
+
+
+
+
+
+
+   
+
+
+
