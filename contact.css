@@ -1,0 +1,149 @@
+body,h1,h2,h3,p{
+    margin: 0;
+    padding: 0;
+
+}
+header {
+    background-image: url(images/services-3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.filter {
+    background: rgba(0, 0, 0, 0.336);
+    height: 100vh;
+    text-align: center;
+}
+
+nav a {
+    
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family:'Noto Sans'
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 17%;
+}
+button {
+    border: none;
+    background-color: #fb2056;
+    padding: 16px 40px;
+    border-radius: 30px;
+}
+
+button {
+    border: none;
+    background-color: #fb2056;
+    padding: 16px 40px;
+    border-radius: 30px;
+}
+.button1{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+p{
+    text-decoration: dotted;
+    color: rgb(12, 12, 12);
+}
+/* ***************************TITTRE 1**************************************** */
+.titre1{
+    font-family:'Montserrat Alternates';
+    padding-top: 200px;
+    /* color: black; */
+}
+
+h1{
+    color: #fff;
+    font-size: 64px;
+}
+
+button:hover{
+    background-color: #20b6fb;
+}
+/* ***************************FORMULAIRE de  CONTACT***************************** */
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 70px;
+}
+  
+  .form-container {
+    width: 400px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 80px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+   .form {
+    margin-bottom: 20px;
+    
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  input[type="text"],  input[type="email"],  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  /* *******************infos de contact************************** */
+
+  .info-container{
+    margin-top: 100px;
+  }
+  .info-container p{
+    margin-top: 10px;
+    margin-bottom: 17px;
+  }
+  
+/* *********************icone réseaux******************** */
+.reseaux {
+  display: flex;
+  padding: 0 15px;
+  font-size: 1.3em;
+  color: rgb(192, 15, 9);
+}
+
+  
+.reseaux a {
+    margin-right: 10px;
+    color: rgb(245, 64, 64); 
+    margin-top: 10px;
+}
+  
+.reseaux a:last-child {
+    margin-right: 0; /* Aucun espacement après la dernière icône */
+  }
+/* ******************FOOTER********************* */
+footer p{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000000;
+    text-align: center ;
+    color: white;
+}
+

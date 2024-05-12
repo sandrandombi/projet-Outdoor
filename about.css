@@ -1,0 +1,84 @@
+body,h1,h2,h3,p{
+    margin: 0;
+    padding: 0;
+
+}
+header {
+    background-image: url(/images/about-bg-5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.filter {
+    background: rgba(0, 0, 0, 0.336);
+    height: 100vh;
+    text-align: center;
+}
+/* couleur et enlever les soulignements des ongles menu */
+nav a {
+    
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family:'Noto Sans'
+}
+/* pour disposition de la barre des différents onglets */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 17%;
+}
+button {
+    border: none;
+    background-color: #fb2056;
+    padding: 16px 40px;
+    border-radius: 30px;
+}
+/* utiliser sur html voir les différentes section où c appliqué */
+.button1{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+p{
+    text-decoration: dotted;
+    color: rgb(12, 12, 12);
+}
+
+.titre1  {
+    font-family:'Montserrat Alternates';
+    padding-top: 200px;
+    color: #fff;
+    font-size: 64px;
+    }
+/* *****************************MISSION******************************** */
+.mission h1{
+    font-size: 30px;
+}
+.mission p{
+    font-size: 15px;
+   
+}
+
+
+    
+
+
+
+
+
+
+
+
+
+footer p{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000000;
+    text-align: center ;
+    color: white;
+}

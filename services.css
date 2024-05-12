@@ -4,10 +4,9 @@ body,h1,h2,h3,p{
 
 }
 header {
-    background-image: url(/image\ de\ fond.jpg);
+    background-image: url(images/image\ de\ fond.jpg);
     background-position: center;
     background-size: cover;
-    /* image reste fixe en scrolant */
     background-attachment: fixed;
 }
 .filter {
@@ -15,7 +14,7 @@ header {
     height: 100vh;
     text-align: center;
 }
-/* couleur et enlever les soulignements des ongles menu */
+
 nav a {
     
     text-decoration: none;
@@ -28,7 +27,7 @@ ul {
     gap: 20px;
     font-family:'Noto Sans'
 }
-/* pour disposition de la barre des différents onglets */
+
 nav {
     display: flex;
     align-items: center;
@@ -41,7 +40,7 @@ button {
     padding: 16px 40px;
     border-radius: 30px;
 }
-/* utiliser sur html voir les différentes section où c appliqué */
+
 .button1{
     text-decoration: none;
     color: #fff;
@@ -51,34 +50,15 @@ p{
     text-decoration: dotted;
     color: rgb(12, 12, 12);
 }
-/* ***************************TITTRE 1**************************************** */
-.titre1{
+/* ***********************SERVICES TITRES IMAGE DE FOND************** */
+.titre1  {
     font-family:'Montserrat Alternates';
     padding-top: 200px;
-    /* color: black; */
-}
-h3{
-    color: #fff;
-    }
-h1{
     color: #fff;
     font-size: 64px;
-}
-/* ***********************FUERAT***************************************** */
-.Fuerat {
-    background-color: white;
-    font-family: "Noto Sans";
-    text-align: center;
-    height: 10vh;
-    padding: 2rem;    
-}
-.quote-1 {
-    position: absolute;
-    left: 100px;
-    padding: 2rem;    
-}
-/* *********************EVENTS************** ******************************/
-.Events {
+    }
+/* **********************TIME***************************** */
+.time {
     font-family: "Noto Sans"; 
     text-align: center;
     color: black;
@@ -87,12 +67,8 @@ h1{
     padding: 2rem;
     font-size: 20px;
 }
-/* BUTTON HOVER LORS DU SURVOL DU BOUTON ARRIERE PLAN */
-button:hover{
-    background-color: #20b6fb;
-}
-/* ************************MONTAGNES EVEREST******************************** */
-.Everest{
+/* **********************2photos TRIPS ET FAMILLE******************** */
+.trips{
     font-family: "Noto Sans";
     text-align: center;
     color: black;
@@ -105,7 +81,7 @@ button:hover{
     font-family: "Montserrat";
     font-weight: bold;
 }
-.Walking {
+.famille{
     font-family: "Noto Sans";
     text-align: center;
     color: hsl(0, 9%, 7%);
@@ -113,48 +89,42 @@ button:hover{
     padding: 100px;    
     font-size: 20px;
 }
-.montagnes {
+.montagnes2 {
     display: flex;
     justify-content: center;    
 }
-/* *******************************EXPLORE********************************************************* */
-.explore{
-    position: relative;
-    background-image: url(images/section-bg-img.jpg);
-    opacity: 90%;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    padding-top: 500px;
+/* *********************2 PHOTO WATER ET WINTER************************* */
+.water{
+    font-family: "Noto Sans";
+    text-align: center;
+    color: black;
+    margin: 30px;
+    padding: 100px;
+    font-size: 20px;   
+}
+.h4 {
+    color: black;
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+.winter{
+    font-family: "Noto Sans";
+    text-align: center;
+    color: hsl(0, 9%, 7%);
+    margin: 30px;
+    padding: 100px;    
+    font-size: 20px;
+}
+.montagnes3 {
+    display: flex;
+    justify-content: center;    
 }
 
-.explore2{
-    position: absolute;
-    margin-left: 50%;
-    top: 40%;
-    color: white;
-}
-.explore2 p{
-    color: white;
-}
-
-.explore2 button{
-    margin-top: 40px;
-}
-
-
-
-
-
-
-
-/* **************************FOOTER******************************* */
+/* *************************FOOTER**************************** */
 footer p{
     font-family: 'Courier New', Courier, monospace;
     background-color: #000000;
     text-align: center ;
     color: white;
 }
-
-
 
