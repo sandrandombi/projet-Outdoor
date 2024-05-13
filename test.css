@@ -9,6 +9,7 @@ header {
     background-size: cover;
     /* image reste fixe en scrolant */
     background-attachment: fixed;
+    
 }
 .filter {
     background: rgba(0, 0, 0, 0.336);
@@ -126,6 +127,8 @@ button:hover{
     background-size: cover;
     background-attachment: fixed;
     padding-top: 500px;
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.527);
 }
 
 .explore2{
@@ -142,10 +145,28 @@ button:hover{
     margin-top: 40px;
 }
 
-
-
-
-
+/* ****************upcoming DESTINATION************************** */
+.upcoming{
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem;
+}
+.upcoming2{
+    width: 30%;
+    text-align: center;
+    margin-top: 80px;
+    
+}
+.destination1 img{
+    width: 65%;
+    padding: 5px;
+}
+.destination1 {
+    width: 45%;
+}
+.destination2{
+width: 45%;
+}
 
 
 /* **************************FOOTER******************************* */

@@ -4,9 +4,11 @@ body,h1,h2,h3,p{
 
 }
 header {
-    background-image: url(images/services-3.jpg);
+    background-image: url(images/photo-haut-page5.jpg);
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
+
 }
 .filter {
     background: rgba(0, 0, 0, 0.336);
