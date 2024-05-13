@@ -70,19 +70,73 @@ p {
 }
 
 /* *****************************MISSION******************************** */
-.mission h1 {
+/* .mission h1 {
     font-size: 30px;
 }
 
 .mission p {
     font-size: 15px;
 
+} */
+.mission {
+    display: flex;
+    font-family: "Noto Sans";
+    text-align: center;
+    color: black;
+    margin: 30px;
+    padding: 100px;
+    font-size: 20px;
 }
 
+.Ourmission {
+    font-family: "Noto Sans";
+    text-align: left;
+    color: black;
+    margin: 30px;
+    padding: 100px;
+    font-size: 20px;
+}
 
+.artciles {
+    display: flex;
+    text-align: start;
+    justify-content: center;
+    align-content: center;
+    /* padding: 110px; */
+    margin-top: 10px;
+}
+
+.article2 {
+
+    color: black;
+    margin: 30px;
+    padding: 100px;
+    font-size: 20px;
+
+}
+
+.article3 {
+
+    color: black;
+    margin: 30px;
+    padding: 100px;
+    font-size: 20px;
+}
+
+.h2 {
+    color: black;
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+/* *******************************FOOTER******************************** */
 footer p {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Noto', sans-serif 16px;
     background-color: #000000;
     text-align: center;
     color: white;
+    font-family: 'Noto Sans';
+    line-height: 2rem;
+    padding-top: 20px;
+    padding-bottom: 20px
 }

@@ -27,7 +27,7 @@ ul {
     display: flex;
     align-items: center;
     gap: 20px;
-    font-family:'Noto Sans'
+    font-family:'Noto'
 }
 /* pour disposition de la barre des différents onglets */
 nav {
@@ -67,8 +67,8 @@ h1{
 }
 /* ***********************FUERAT***************************************** */
 .Fuerat {
-    background-color: white;
-    font-family: "Noto Sans";
+    
+    font-family: 'Noto',sans-serif;
     text-align: center;
     height: 10vh;
     padding: 2rem;    
@@ -76,11 +76,12 @@ h1{
 .quote-1 {
     position: absolute;
     left: 100px;
-    padding: 2rem;    
+    padding: 2rem; 
+    
 }
 /* *********************EVENTS************** ******************************/
 .Events {
-    font-family: "Noto Sans"; 
+    font-family: 'Noto',sans-serif; 
     text-align: center;
     color: black;
     background-color:white;
@@ -94,7 +95,7 @@ button:hover{
 }
 /* ************************MONTAGNES EVEREST******************************** */
 .Everest{
-    font-family: "Noto Sans";
+    font-family: 'Noto',sans-serif;
     text-align: center;
     color: black;
     margin: 30px;
@@ -107,7 +108,7 @@ button:hover{
     font-weight: bold;
 }
 .Walking {
-    font-family: "Noto Sans";
+    font-family: 'Noto Sans',sans-serif ;
     text-align: center;
     color: hsl(0, 9%, 7%);
     margin: 30px;
@@ -146,36 +147,64 @@ button:hover{
 }
 
 /* ****************upcoming DESTINATION************************** */
-.upcoming{
+.upcoming {
     display: flex;
     justify-content: space-around;
     padding: 3rem;
 }
-.upcoming2{
+.upcoming2 {
     width: 30%;
     text-align: center;
     margin-top: 80px;
-    
 }
-.destination1 img{
+.destination {
     width: 65%;
-    padding: 5px;
+    display: flex;
+    margin-top: 80px;
+}
+.destination img{
+    width: 100%;
+  padding: 5px;
 }
 .destination1 {
     width: 45%;
 }
-.destination2{
-width: 45%;
+.destination2 {
+    width: 45%;
 }
 
 
 /* **************************FOOTER******************************* */
 footer p{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Noto',sans-serif 16px;
     background-color: #000000;
     text-align: center ;
     color: white;
+    font-family: 'Noto Sans';
+    line-height: 2rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
