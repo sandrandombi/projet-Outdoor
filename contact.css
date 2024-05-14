@@ -142,10 +142,14 @@ button:hover{
     margin-right: 0; /* Aucun espacement après la dernière icône */
   }
 /* ******************FOOTER********************* */
-footer p{
-    font-family: 'Courier New', Courier, monospace;
-    background-color: #000000;
-    text-align: center ;
-    color: white;
+footer p {
+  font-family: 'Noto', sans-serif 16px;
+  background-color: #000000;
+  text-align: center;
+  color: white;
+  font-family: 'Noto Sans';
+  line-height: 2rem;
+  padding-top: 20px;
+  padding-bottom: 20px
 }
 

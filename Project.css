@@ -9,7 +9,7 @@ p {
 }
 
 header {
-    background-image: url(/images/about-bg-5.jpg);
+    background-image: url(images/fond-page4.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -20,7 +20,6 @@ header {
     text-align: center;
 }
 
-/* couleur et enlever les soulignements des ongles menu */
 nav a {
 
     text-decoration: none;
@@ -35,7 +34,6 @@ ul {
     font-family: 'Noto Sans'
 }
 
-/* pour disposition de la barre des différents onglets */
 nav {
     display: flex;
     align-items: center;
@@ -50,7 +48,7 @@ button {
     border-radius: 30px;
 }
 
-/* utiliser sur html voir les différentes section où c appliqué */
+
 .button1 {
     text-decoration: none;
     color: #fff;
@@ -69,60 +67,9 @@ p {
     font-size: 64px;
 }
 
-/* *****************************MISSION******************************** */
-
-.Mission {
-    display: flex;
-    padding: 3rem;
-    background-color: white;
-    justify-content: space-around;
-    gap: 2rem;
-
-}
-
-.Mission2 {
-    width: 45%;
-
-}
-
-.Mission1 {
-    justify-content: flex-start;
-    width: 45%;
-}
 
 
-.Mission2 img {
-    width: 80%;
-}
 
-.experiences {
-
-    width: 45%;
-
-}
-
-.value {
-
-    width: 45%;
-   
-}
-
-.h2 {
-    color: black;
-    font-family: "Montserrat";
-    font-weight: bold;
-}
-
-.Mission3 {
-    display: flex;
-    text-align: left;
-    justify-content: space-around;
-    padding: 3rem;
-    gap: 2rem;
-
-}
-
-/* *******************************FOOTER******************************** */
 footer p {
     font-family: 'Noto', sans-serif 16px;
     background-color: #000000;
