@@ -123,13 +123,11 @@ p {
 }
 
 /* *******************************FOOTER******************************** */
-footer p {
+footer  {
     font-family: 'Noto', sans-serif 16px;
     background-color: #000000;
     text-align: center;
-    color: white;
-    font-family: 'Noto Sans';
-    line-height: 2rem;
-    padding-top: 20px;
-    padding-bottom: 20px
+    padding: 40px;
+    padding-bottom: 40px;
+    margin-top: 100px;
 }

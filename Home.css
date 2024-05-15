@@ -98,8 +98,8 @@ button:hover{
     font-family: 'Noto',sans-serif;
     text-align: center;
     color: black;
-    margin: 30px;
-    padding: 100px;
+    gap: 2rem;
+    
     font-size: 20px;   
 }
 .h4 {
@@ -107,17 +107,18 @@ button:hover{
     font-family: "Montserrat";
     font-weight: bold;
 }
+
 .Walking {
     font-family: 'Noto Sans',sans-serif ;
     text-align: center;
     color: hsl(0, 9%, 7%);
-    margin: 30px;
-    padding: 100px;    
+  
     font-size: 20px;
 }
 .montagnes {
-    display: flex;
-    justify-content: center;    
+    /* padding: 10px; */
+    /* display: flex;
+    justify-content: center;     */
 }
 /* *******************************EXPLORE********************************************************* */
 .explore{
@@ -175,15 +176,13 @@ button:hover{
 
 
 /* **************************FOOTER******************************* */
-footer p{
-    font-family: 'Noto',sans-serif 16px;
+footer {
+    font-family: 'Noto', sans-serif 16px;
     background-color: #000000;
-    text-align: center ;
-    color: white;
-    font-family: 'Noto Sans';
-    line-height: 2rem;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    text-align: center;
+    padding: 40px;
+    padding-bottom: 40px;
+    margin-top: 100px;
 
 }
 

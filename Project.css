@@ -59,24 +59,62 @@ p {
     text-decoration: dotted;
     color: rgb(12, 12, 12);
 }
-
-.titre1 {
+/* *************projects***************************** */
+.projects {
     font-family: 'Montserrat Alternates';
     padding-top: 200px;
     color: #fff;
     font-size: 64px;
 }
+/* *************************water et winter texte et image************************** */
+.water{
+    text-align: start;
+    padding:2rem;
+}
+.winter{
+    text-align: start;
+    padding:2rem;
+}
+.slider img{
+ width: 30%;
+    
+}
+.slider{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-around;
+    gap:1rem
+}
+.slider2{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-around;
+    gap:1rem
+}
+.slider2 img{
+    width: 30%;       
+   }
+.camping{
+    text-align: start;
+    padding:2rem;
+}  
+.slider3{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-around;
+    gap:1rem
+}
 
+.slider3 img {
+    width: 30%;
+}
 
-
-
-footer p {
+/* ************************FOOTER************************** */
+footer  {
     font-family: 'Noto', sans-serif 16px;
     background-color: #000000;
     text-align: center;
-    color: white;
-    font-family: 'Noto Sans';
-    line-height: 2rem;
-    padding-top: 20px;
-    padding-bottom: 20px
+    padding: 40px;
+    padding-bottom: 40px;
+    margin-top: 100px;
 }
