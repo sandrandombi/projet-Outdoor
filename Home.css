@@ -1,36 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-body,h1,h2,h3,p{
+body,
+h1,
+h2,
+h3,
+p {
     margin: 0;
     padding: 0;
 
 }
+.logo{
+    width: 20%;
+}
+
 header {
     background-image: url(/image\ de\ fond.jpg);
     background-position: center;
     background-size: cover;
     /* image reste fixe en scrolant */
     background-attachment: fixed;
-    
+
 }
+
 .filter {
     background: rgba(0, 0, 0, 0.336);
     height: 100vh;
     text-align: center;
 }
+
 /* couleur et enlever les soulignements des ongles menu */
 nav a {
-    
+
     text-decoration: none;
     color: #fff;
     text-align: center;
 }
+
 ul {
     display: flex;
     align-items: center;
     gap: 20px;
-    font-family:'Noto'
+    font-family: 'Noto'
 }
+
 /* pour disposition de la barre des différents onglets */
 nav {
     display: flex;
@@ -38,72 +50,84 @@ nav {
     justify-content: space-between;
     margin: 0 17%;
 }
+
 button {
     border: none;
     background-color: #fb2056;
     padding: 16px 40px;
     border-radius: 30px;
 }
+
 /* utiliser sur html voir les différentes section où c appliqué */
-.button1{
+.button1 {
     text-decoration: none;
     color: #fff;
     cursor: pointer;
 }
-p{
+
+p {
     text-decoration: dotted;
     color: rgb(12, 12, 12);
 }
+
 /* ***************************TITTRE 1**************************************** */
-.titre1{
-    font-family:'Montserrat';
+.titre1 {
+    font-family: 'Montserrat';
     padding-top: 200px;
     /* color: black; */
 }
-h3{
+
+h3 {
     color: #fff;
-    }
-h1{
+}
+
+h1 {
     color: #fff;
     font-size: 64px;
 }
+
 /* ***********************FUERAT***************************************** */
 .Fuerat {
-    
-    font-family: 'Noto',sans-serif;
+
+    font-family: 'Noto', sans-serif;
     text-align: center;
     height: 10vh;
-    padding: 2rem;    
+    padding: 2rem;
 }
+
 .quote-1 {
     position: absolute;
     left: 100px;
-    padding: 2rem; 
-    
+    padding: 2rem;
+
 }
+
 /* *********************EVENTS************** ******************************/
 .Events {
-    font-family: 'Noto',sans-serif; 
+    font-family: 'Noto', sans-serif;
     text-align: center;
     color: black;
-    background-color:white;
+    background-color: white;
     left: 100;
     padding: 2rem;
     font-size: 20px;
 }
+
 /* BUTTON HOVER LORS DU SURVOL DU BOUTON ARRIERE PLAN */
-button:hover{
+button:hover {
     background-color: #20b6fb;
 }
+
 /* ************************MONTAGNES EVEREST******************************** */
-.Everest{
-    font-family: 'Noto',sans-serif;
+.Everest {
+    font-family: 'Noto', sans-serif;
     text-align: center;
     color: black;
     gap: 2rem;
-    
-    font-size: 20px;   
+
+    font-size: 20px;
 }
+
 .h4 {
     color: black;
     font-family: "Montserrat";
@@ -111,19 +135,26 @@ button:hover{
 }
 
 .Walking {
-    font-family: 'Noto Sans',sans-serif ;
+    font-family: 'Noto Sans', sans-serif;
     text-align: center;
     color: hsl(0, 9%, 7%);
-  
+
     font-size: 20px;
 }
+
 .montagnes {
-    /* padding: 10px;  */
-    /* display: flex; */
-    justify-content: center;    
+    padding: 10px;
+    display: flex;
+    justify-content: center;
 }
+
+.montagnes img {
+    width: 100%;
+    padding: 5px;
+}
+
 /* *******************************EXPLORE********************************************************* */
-.explore{
+.explore {
     position: relative;
     background-image: url(images/section-bg-img.jpg);
     opacity: 90%;
@@ -135,43 +166,52 @@ button:hover{
     background-color: rgba(0, 0, 0, 0.527);
 }
 
-.explore2{
+.explore2 {
     position: absolute;
     margin-left: 50%;
     top: 40%;
     color: white;
 }
-.explore2 p{
+
+.explore2 p {
     color: white;
 }
 
-.explore2 button{
+.explore2 button {
     margin-top: 40px;
 }
 
+/* .explore img{
+    width: 45%;
+} */
 /* ****************upcoming DESTINATION************************** */
 .upcoming {
     display: flex;
     justify-content: space-around;
     padding: 3rem;
 }
+
 .upcoming2 {
     width: 30%;
     text-align: center;
     margin-top: 80px;
 }
+
 .destination {
     width: 65%;
     display: flex;
     margin-top: 80px;
 }
-.destination img{
+
+.destination img {
     width: 100%;
-  padding: 5px;
+    padding: 5px;
 }
+
 .destination1 {
     width: 45%;
 }
+
 .destination2 {
     width: 45%;
 }
@@ -188,24 +228,88 @@ footer {
 
 }
 
+/* *************************MEDIA**************************** */
+@media (max-width: 768px) {
+    nav {
+        /* flex-direction: column; */
+        flex-direction: row;
+        align-items: flex-start;
+    }
 
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+    }
 
+    nav ul li {
+        margin: 5px 0;
+    }
 
+    nav ul a button {
+        width: 100%;
+        text-align: center;
+    }
 
+    .titre1 h3 {
+        font-size: 20px;
 
+    }
 
+    .titre1 p {
+        font-size: 16px;
 
+    }
 
+    .titre1 h1 {
+        font-size: 30px;
 
+    }
 
+    .button1 {
+        font-size: 14px;
+        padding: 8px 16px;
 
+    }
 
+    section.Fuerat {
+        padding: 30px;
+    }
 
+    section.Fuerat a.quote-1 img {
+        width: 60px;
+    }
 
+    section.Fuerat p {
+        font-size: 1.1em;
+    }
 
+    .montagnes section {
+        width: 100%;
+        margin: 10px 0;
+    }
 
+    .explore2 {
+        padding: 10px;
+        max-width: 100%;
+    }
 
+    .explore2 h2 {
+        font-size: 1.5em;
+    }
 
+    .explore2 p {
+        font-size: 0.9em;
+    }
 
-
-
+    .button1 {
+        padding: 12px 24px;
+        font-size: 14px;
+    }
+    .explore {
+        background-attachment: initial;
+       } 
+       .logo {
+        margin-top: 20px;
+        margin-left: 2rem;
+       }
+    }
