@@ -116,9 +116,9 @@ button:hover{
     font-size: 20px;
 }
 .montagnes {
-    /* padding: 10px; */
-    /* display: flex;
-    justify-content: center;     */
+    padding: 10px; 
+    display: flex;
+    justify-content: center;    
 }
 /* *******************************EXPLORE********************************************************* */
 .explore{
