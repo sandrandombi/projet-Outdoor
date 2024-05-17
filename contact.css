@@ -179,3 +179,37 @@ footer  {
       
   }
 }
+@media (max-width: 480px) {
+  .filter nav {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .filter nav .logo img {
+      width: 100px;
+  }
+
+  .filter nav ul {
+      flex-direction: column;
+      width: 100%;
+      padding: 0;
+      display: ruby;
+  }
+
+  .filter nav ul a {
+      margin: 10px 0;
+      width: 100%;
+      text-align: center;
+  }
+
+  .filter nav ul button {
+      width: 100%;
+      text-align: center;
+      margin-top: 10px;
+  }
+  .logo {
+    margin-top: 10px;
+    margin-left: 110px;
+    padding-top: 30px;
+}
+}
