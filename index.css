@@ -193,8 +193,13 @@ button:hover {
 
 .upcoming2 {
     width: 30%;
-    text-align: center;
+    text-align: left;
     margin-top: 80px;
+    
+}
+.upcoming2 p{
+     line-height: 1.8; 
+     font-size: 20px;
 }
 
 .destination {

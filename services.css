@@ -138,8 +138,14 @@ p {
     margin-top: 10px;
 }
 
+.why p{
+    line-height: 1.5;
+}
 .you {
     width: 45%;
+}
+.you p{
+    line-height: 1.5;
 }
 
 .h3 {
