@@ -114,7 +114,9 @@ p {
     font-family: "Montserrat";
     font-weight: bold;
 }
-
+P{
+ margin-top: 20px;
+}
 .Mission3 {
     display: flex;
     text-align: left;

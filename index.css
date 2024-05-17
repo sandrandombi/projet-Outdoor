@@ -14,7 +14,7 @@ p {
 }
 
 header {
-    background-image: url(/image\ de\ fond.jpg);
+    background-image: url(/images/\ fond-accueil.jpg);
     background-position: center;
     background-size: cover;
     /* image reste fixe en scrolant */
@@ -92,22 +92,22 @@ h1 {
     font-family: 'Noto', sans-serif;
     text-align: center;
     height: 10vh;
-    padding: 2rem;
+    padding: 3rem;
+    background-color: #ebebb8;
+    
 }
 
 .quote-1 {
     position: absolute;
     left: 100px;
     padding: 2rem;
-
 }
-
+    
 /* *********************EVENTS************** ******************************/
 .Events {
     font-family: 'Noto', sans-serif;
     text-align: center;
     color: black;
-    background-color: white;
     left: 100;
     padding: 2rem;
     font-size: 20px;
@@ -124,7 +124,6 @@ button:hover {
     text-align: center;
     color: black;
     gap: 2rem;
-
     font-size: 20px;
 }
 
@@ -149,8 +148,8 @@ button:hover {
 }
 
 .montagnes img {
-    width: 100%;
-    padding: 5px;
+    width: 70%;
+   
 }
 
 /* *******************************EXPLORE********************************************************* */
@@ -189,6 +188,7 @@ button:hover {
     display: flex;
     justify-content: space-around;
     padding: 3rem;
+   
 }
 
 .upcoming2 {
@@ -199,7 +199,7 @@ button:hover {
 
 .destination {
     width: 65%;
-    display: flex;
+    display: ruby;
     margin-top: 80px;
 }
 
